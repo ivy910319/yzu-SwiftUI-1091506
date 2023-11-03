@@ -67,7 +67,7 @@ struct MiddleView: View {
             Image(imageName)
                 .resizable()
                 .aspectRatio(contentMode:.fit)
-                .frame(height: 200, alignment:.center)
+                .frame(height: 150, alignment:.center)
             Text(imageName.capitalized)
                 .fontWeight(.bold)
                 .font(.system(size: 25))
@@ -112,6 +112,8 @@ extension UIScreen{
     static let screenHeight = UIScreen.main.bounds.size.height
     static let screenSize = UIScreen.main.bounds.size
 }
+
+
 
 
 
